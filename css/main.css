@@ -1,0 +1,849 @@
+@font-face { 
+  font-family: 'Ubuntu Mono'; 
+  src: url('../fonts/UbuntuMono-Regular.woff2') format('woff2'), 
+       url('../fonts/UbuntuMono-Regular.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+
+
+body {
+	 font-family: Arial, sans-serif;
+    padding: 0;
+	 margin: 0;
+}
+header {
+    height: 50px;
+    background: center top / cover;
+    background-color: #fcfcfc
+   
+}
+
+#SolTeamLogo {
+
+    background: center top / cover;
+	background-color: #222127
+
+}
+
+.SolTeamLogo-png {
+  height: 30px;
+  position: absolute;
+
+  margin-left: -0px;
+  margin-top: 25px;
+
+}
+
+ 
+.AbouUs {
+    width: 36%;
+    height: 35px;
+    position: absolute;
+    font-family: 'Montserrat';   
+    margin-left: 22%;
+    margin-top: 50px;
+    z-index: 25;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+    -webkit-transition: 0.7s ease; /* Safari and Chrome */
+    -moz-transition: 0.7s ease; /* Firefox 4 */
+    -o-transition: 0.7s ease; /* Opera */
+
+  
+  }
+
+  .AbouUs h2 {
+    font-family: 'Montserrat';   
+    font-size: 20px;
+    line-height: 1.811;
+  
+  }
+
+  .AbouUs h1 {
+    color: #b6b2bd;
+    font-family: 'Montserrat';   
+    font-size: 14px;
+    line-height: 1.811;
+    margin-top: -5px; 
+  }
+
+
+
+
+  
+.logo {
+    margin-left: 50px;
+    -webkit-transition: 0.3s ease; /* Safari and Chrome */
+    -moz-transition: 0.3s ease; /* Firefox 4 */
+    -o-transition: 0.3s ease; /* Opera */
+  
+  }
+
+  .logo:hover {
+
+  }
+
+nav {
+
+	float: right;
+    margin-top: 30px;
+	
+}
+
+
+
+.menu {
+	padding: 0;
+	margin: 0;
+
+    margin-right: 180x;
+	
+}
+
+.menu li {
+	float: left;
+    display: block;
+    margin-right: 50px;
+}
+
+.menu li a  {
+	color: #1b191e;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Code Pro'; 
+    font-weight: 700;
+    letter-spacing: 1px; 
+    -webkit-transition: 0.3s ease; /* Safari and Chrome */
+    -moz-transition: 0.3s ease; /* Firefox 4 */
+    -o-transition: 0.3s ease; /* Opera */
+
+}
+
+.menu li a:active  {
+	color: #1b191e;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Code Pro'; 
+    font-weight: bolder; 
+    font-style: bold; 
+    -webkit-transition: 0.7s ease; /* Safari and Chrome */
+    -moz-transition: 0.7s ease; /* Firefox 4 */
+    -o-transition: 0.7s ease; /* Opera */
+
+}
+
+.menu li a:hover {
+    color: #c9194e;
+}
+
+
+
+#MenuSeparate {
+
+    height: 50px;
+    background: center top / cover;
+    background-color: #fcfcfc
+}
+
+.container {
+
+}
+
+.News {
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    opacity: 0.741;
+    position: relative;
+	float: right;
+    top: 81px;
+    width: 359px;
+    height: 1080px;
+    margin-top: -50px;
+  }
+
+.NText {
+    margin-right: 250px;
+    color: #ff0000;
+}
+
+.articleT {
+    color: #beb2b6;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.articleT:hover {
+    color: #c9194e;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.articleTT {
+    color: #1988c9;
+    text-decoration: none;
+    margin-left: 25%;    
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-left: 0%;
+}
+
+.articleYD {
+    color: #ffae00;
+
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 15px;
+
+}
+
+.downloadT {
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+
+  }
+
+#social {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 62%;
+  }
+
+
+  .twitter {
+
+    height: 15px;
+    margin-right: 25px;
+ }
+ 
+ .discord {
+
+    height: 15px;
+    margin-right: 10px;
+ }
+ 
+ .vk {
+
+    margin-left: 10px;
+    height: 15px;
+ }
+
+
+#download-text{
+	height: 100px;
+}
+
+#wm {
+    margin-top: 31px;
+    height: 550px;
+    background: center top / cover;
+    background-color: #38145a;
+    font-family: Montserrat;
+    font-size: 17px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 5.811;
+
+}
+
+
+#block1-wm span {
+   position: absolute;
+   margin-top: -130px;
+}
+
+#block1-wm p1 {
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -500px;
+
+    font-size: 16px;
+    font-family: Montserrat;
+    color: rgb(205, 203, 214);
+    margin-top: 20px;
+    line-height: 2;
+
+}
+
+#block1-wm p {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -500px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: rgb(204, 200, 211);
+  
+    line-height: 0;
+
+}
+
+.BGBlockWM {
+    height: 250px;
+    position: absolute;;
+    margin-left: 0px;   
+    margin-top: -130px;
+    -webkit-transition: 0.7s ease; /* Safari and Chrome */
+    -moz-transition: 0.7s ease; /* Firefox 4 */
+    -o-transition: 0.7s ease; /* Opera */
+    
+
+}
+
+.BGBlockWM:hover {
+    transform: translateX(20deg) translateY(-10deg);
+ 
+
+}
+
+
+
+
+#block2-wm {
+    letter-spacing: -1px; 
+    font-size: 16px;
+    font-family: Montserrat;
+    color: rgb(56, 53, 65);
+    text-align: center;
+    margin-top: 50px;
+    height: 550px;
+    background: center top / cover;
+    background-color: #ffffff;
+
+}
+
+#block2-wm span {
+   position: absolute;
+}
+
+#block2-wm h2 {
+
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -425px;
+
+    font-size: 25px;
+    font-family: Montserrat;
+    color: rgb(56, 53, 65);
+    margin-top: 60px;
+
+
+
+}
+
+#block2-wm p1 {
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -425px;
+
+    font-size: 16px;
+    font-family: Montserrat;
+    color: rgb(120, 118, 129);
+    margin-top: 60px;
+    line-height: 2;
+
+}
+
+#block2-wm p {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -425px;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: rgb(158, 155, 165);
+  
+    line-height: 0;
+
+}
+
+.LightOrion {
+    margin-left: 10px;
+    -webkit-transition: 0.7s ease; /* Safari and Chrome */
+    -moz-transition: 0.7s ease; /* Firefox 4 */
+    -o-transition: 0.7s ease; /* Opera */
+}
+
+.LightOrion:hover {
+    color: rgb(255, 0, 85);
+}
+
+.STeamLogo {
+    margin-left: 65px; 
+    margin-top: -370px;    
+    height: 450px;
+    position: absolute;
+    filter: invert(1)
+    opacity(0.8)
+}
+
+#secret {
+    margin-top: 31px;
+    height: 5050px;
+    background: center top / cover;
+    background-color: #ffffff;
+
+}
+
+.secret-png {
+  overflow: hidden;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -230px;
+  margin-top: -220px;
+
+}
+
+
+
+.secret-text h2 {
+
+   letter-spacing: 5px;
+	padding-top: 100px;
+   font-family: "Ubuntu Mono";
+	font-size: 18px;
+	font-weight: 25;
+	text-align: left;
+
+}
+
+#secret-text {
+	    height: 0px;
+
+}
+
+.secret-text {
+  line-height: 200%;
+  left: 5%;
+  top: 1600px;
+  color: #de185e;
+  font-family: "Ubuntu Mono";
+  position: absolute;
+  width: 25%;
+  
+}
+
+
+#separate {
+	 height: 1px;
+    background: center top / cover;
+	 background-color: #b8b8b8
+}
+
+#separate1 {
+	 margin-top: 50px;
+	 height: 1px;
+    background: center top / cover;
+	 background-color: #b8b8b8
+}
+
+#separateM {
+    margin-top: 40px;
+    height: 1px;
+   background: center top / cover;
+    background-color: #b8b8b8
+}
+.title4 {
+
+}
+
+.title4 h2 {
+	padding-top: 100px;
+	letter-spacing: 4px;
+   font-family: "Ubuntu Mono";
+	font-size: 30px;
+	font-weight: Bold;
+	text-align: center;
+   margin-left: 5px;
+   margin-top: 30px;
+   color: #a9a9a9;
+
+}
+
+.title4 p{
+   padding-top: 7px;
+   color: #767676;
+   letter-spacing: -1px;
+   font-weight: 250;
+	font-family: "Ubuntu Mono";
+   position: relative;
+	text-align: center;
+	font-size: 20px;
+   margin-left: 5px;
+   margin-top: -30px;
+}
+
+
+
+
+
+#vault {
+    margin-top: 31px;
+    height: 320px;
+    background: center top / cover;
+    background-color: #1e1d1f;
+    font-family: Montserrat;
+    font-size: 17px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 5.811;
+
+}
+
+
+#vault-VB span {
+   position: absolute;
+   margin-top: -70px;
+}
+
+#vault-VB p1 {
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+
+    font-size: 16px;
+    font-family: Montserrat;
+    color: rgb(114, 111, 119);
+    margin-top: -50px;
+    line-height: 2;
+
+}
+
+#vault-VB p {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -500px;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(114, 111, 119);
+  
+    line-height: 0;
+
+}
+
+#vault-VB p3 {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -500px;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(114, 111, 119);
+  
+    line-height: 0;
+
+}
+
+
+#vault-VB h2 {
+
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -500px;
+    text-transform: uppercase;
+    font-size: 22.5px;
+    font-family: Montserrat;
+    color: rgb(229, 227, 238);
+    margin-top: 100px;
+    margin-bottom: -55px;
+
+
+}
+
+
+
+#social-V {
+    margin-left: -850px;
+  }
+
+
+  .twitter-V {
+    opacity: 0.7;
+    margin-top: 150px;
+    height: 15px;
+    margin-right: 10px;
+ }
+ 
+ .discord-V {
+    opacity: 0.7;
+    height: 15px;
+    margin-right: 10px;
+ }
+ 
+ .vk-V {
+    opacity: 0.7;
+    height: 15px;
+    margin-right: 10px;
+ }
+
+ .yt-V {
+    opacity: 0.7;
+    height: 15px;
+ }
+
+ .twitter-V:hover {
+    opacity: 2;
+    filter: brightness(100)
+ }
+ 
+ .discord-V:hover {
+    opacity: 2;
+    filter: brightness(100)
+ }
+ 
+ .vk-V:hover {
+    opacity: 2;
+    filter: brightness(100)
+ }
+
+
+ .yt-V:hover {
+    opacity: 2;
+    filter: brightness(100)
+ }
+
+
+
+@keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px /* анимируем свойство background-position */
+    }
+}
+/* Mozilla Firefox 5.0+ */
+@-moz-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+/* Safari 4.0+, Chrome 4.0+ */
+@-webkit-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+/* Opera 12.0+ */
+@-o-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+/* не нужно использовать префикс -ms, так как свойства keyframes и animation поддерживаются с версии IE10 без префикса */
+#fon{
+	height: 340px; /* задаем произвольную высоту и ширину блока */
+	width:100%;
+	background-image: url('URL вашего фонового изображения');
+
+	/* так же, как и с @keyframes, префикс -ms тут ни к чему */
+}
+
+
+@media screen and (max-width:1535px) {
+.AbouUs {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 800px;
+}
+
+@media screen and (max-width:1300px) {
+    .AbouUs {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 750px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .AbouUs {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 650px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .AbouUs {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .AbouUs {
+
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 750px;
+    }
+    .News {
+        visibility: hidden	  
+    }
+
+    .menu {
+        padding: 0;
+        margin: 0;
+    
+        margin-right: 180x;
+        
+    }
+    
+    .menu li {
+        display: block;
+        margin-right: 50px;
+    }
+    
+    .menu li a  {
+        color: #1b191e;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: 'Code Pro'; 
+        font-weight: bolder; 
+        font-style: bold; 
+        -webkit-transition: 0.7s ease; /* Safari and Chrome */
+        -moz-transition: 0.7s ease; /* Firefox 4 */
+        -o-transition: 0.7s ease; /* Opera */
+    
+    }
+
+
+    .AbouUs h2 {
+        -webkit-transition: 0.7s ease; /* Safari and Chrome */
+        -moz-transition: 0.7s ease; /* Firefox 4 */
+        -o-transition: 0.7s ease; /* Opera */
+        font-family: 'Montserrat';   
+        font-size: 1.6vh;
+        line-height: 1.811;
+      }
+    
+      .AbouUs h1 {
+        -webkit-transition: 0.7s ease; /* Safari and Chrome */
+        -moz-transition: 0.7s ease; /* Firefox 4 */
+        -o-transition: 0.7s ease; /* Opera */
+        color: #b6b2bd;
+        font-family: 'Montserrat';   
+        font-size: 1.5vh;
+        line-height: 1.811;
+        margin-top: -5px; 
+        width: 430px;
+      }
+      .AbouUs a {
+        font-size: 1.5vh;
+        margin-top: 50px;
+        width: 500px;
+    }  
+
+
+}
+
+@media screen and (max-width:900px) {
+    .menu {
+        visibility: hidden;
+    }
+    .AbouUs {
+        margin-left: -250px;
+        left:  50%;
+        width: 500px;
+    }
+}
+
+.special {
+    margin-top: 15%;
+    margin-left: 25%;
+    width: 50px;
+
+}
+
+.special p 
+{
+    position: absolute;
+    font-family: Consolas;
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 20px;
+}
+
+.special p:before
+{
+    content: attr(data-text);
+    position: absolute;
+    top; 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #c9194e;
+    overflow: hidden;
+    border-right: 1px solid #000;
+    animation: type 10s steps(38) infinite;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:900px) {
+    #social {
+        visibility: visible;
+    
+      }
+}
+
+
+@keyframes type 
+{
+    0%
+    {
+        width: 0%;
+    }
+
+}
+{
+    50%
+    {
+        width: 100%;
+    }
+
+}
+{
+    100%
+    {
+        width: 0%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
