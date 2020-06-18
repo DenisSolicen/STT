@@ -36,7 +36,13 @@ header {
 
 }
 
- 
+
+
+.Pic {
+    height: 320px;
+    margin-right: 50%;
+} 
+
 .AbouUs {
     width: 36%;
     height: 35px;
@@ -488,8 +494,10 @@ nav {
 
 
 #vault {
-    margin-top: 31px;
-    height: 320px;
+
+    bottom: 0px;
+
+    height: 30px;
     background: center top / cover;
     background-color: #1e1d1f;
     font-family: Montserrat;
@@ -508,7 +516,7 @@ nav {
 
 #vault-VB p1 {
     text-align: left;
-    display: flex;
+
     flex-flow: row wrap;
     margin-left: 20px;
 
