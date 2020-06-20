@@ -11,6 +11,7 @@
 body {
 	 font-family: Arial, sans-serif;
     padding: 0;
+    
 	 margin: 0;
 }
 header {
@@ -27,6 +28,135 @@ header {
 
 }
 
+.NSC {
+    visibility: hidden;
+    height: 100px;  
+    width: 25px;   
+    margin-left: 66%;
+    margin-bottom: -100px;
+
+}
+
+.NSS:hover {
+    background: center top / cover;
+    background-color: #222127;
+ opacity: 100%;
+
+}
+
+
+
+
+
+.NSSM {
+    opacity: 40%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+
+  /*конец кода с transition*/
+
+    
+}
+
+.NSSM:hover {
+    position: absolute;
+    z-index: 999;
+    transform: scale(2.5);
+    margin-left: 20%;
+    right: 5%;
+    opacity: 100%;
+
+    filter: none;
+    filter: none; /* IE 6-9 */\
+
+  }
+
+
+.DSSImg {
+    height: 170px;  
+    opacity: 18%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+  /*Добавим вот такой вот код*/
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  /*конец кода с transition*/
+
+    
+}
+
+.DSSImg:hover {
+    position: relative;
+    display: block;
+    z-index: 999;
+    transform: scale(5.2);
+    opacity: 100%;
+    margin-left: 0%;
+    margin-right: 50%;   
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */\
+
+  }
+
+.NSSM {
+    display: flex;
+    height: 82px;
+    margin-top: 5px;
+    margin-right: 10px;
+    #float: left; /*Задаем обтекание*/
+}
+
+.NS2 {
+
+    height: 90px;  
+    opacity: 45%;
+
+
+    
+}
+
+.YTvideo {
+    opacity: 20%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+  /*Добавим вот такой вот код*/
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  /*конец кода с transition*/
+  }
+.YTvideo:hover {
+    opacity: 100%;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */
+  }
+
+
 .SolTeamLogo-png {
   height: 30px;
   position: absolute;
@@ -41,14 +171,16 @@ header {
 .Pic {
     height: 320px;
     margin-right: 50%;
+
+    
 } 
 
 .AbouUs {
-    width: 36%;
+    width: 35%;
     height: 35px;
     position: absolute;
     font-family: 'Montserrat';   
-    margin-left: 22%;
+    margin-left: 21%;
     margin-top: 50px;
     z-index: 25;
     line-height: 1.6;
@@ -64,6 +196,14 @@ header {
     font-family: 'Montserrat';   
     font-size: 20px;
     line-height: 1.811;
+  
+  }
+
+  .AbouUs p {
+    font-family: 'Montserrat';   
+    line-height: 1.811;
+    margin-bottom: 6px;
+
   
   }
 
@@ -209,7 +349,7 @@ nav {
 }
 
 .downloadT {
-    margin-left: 25%;
+    margin-left: 29%;
     margin-top: 50px;
     width: 350px;
     height: 350px;
@@ -669,6 +809,7 @@ nav {
 
 
 @media screen and (max-width:1535px) {
+    
 .AbouUs {
     margin-left: 50px;
     margin-top: 50px;
@@ -681,6 +822,7 @@ nav {
         margin-top: 50px;
         width: 750px;
     }
+
 
 }
 
@@ -695,6 +837,10 @@ nav {
         position: fixed;
         margin-top: 30px;
         margin-left: %;
+      }
+      .YTvideo {
+          height: 281px;
+          width: 500px;
       }
 }
 
@@ -719,6 +865,10 @@ nav {
     }
     .News {
         visibility: hidden	  
+    }
+
+    .downloadT {
+        margin-left: 15%;
     }
 
     .menu {
